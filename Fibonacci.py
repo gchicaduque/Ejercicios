@@ -4,6 +4,6 @@ cont = 0
 a = 1L
 b = 2L
 while cont < n:
+    cont = cont + 1
     print str(a) + ','
     a, b = b, a + b
-    cont = cont + 1
